@@ -14,8 +14,12 @@ public class BankController {
         System.out.println("The deposite in value " + value + " with sucess");
     }
 
-    public static void withDraw() {
+    public static void withdraw() {
 
+    }
+
+    public static void transferer() {
+        
     }
 
     public static void showBalance() {
