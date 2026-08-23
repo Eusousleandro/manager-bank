@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 
     private final static Scanner scanner = new Scanner(System.in);
-    private final static BankController controller = new BankController();
+    private final BankController controller = new BankController();
 
     public static void main(String[] agra) {
 
