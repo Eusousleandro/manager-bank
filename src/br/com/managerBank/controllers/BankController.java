@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class BankController {
 
     private final static Scanner scanner = new Scanner(System.in);
-    private final static BankService = new BankService();
+    private final static BankService servive = new BankService();
                             
     public class BankController {
 
