@@ -8,8 +8,6 @@ public class BankController {
 
     private final static Scanner scanner = new Scanner(System.in);
     private final static BankService servive = new BankService();
-                            
-    public class BankController {
 
         public BankController(BankService bankService) {
             this.bankService = service;
@@ -47,5 +45,4 @@ public class BankController {
         public static void showBalance() {
             System.out.println("The balance of value is of ");
         }                                                                                                                                                                                             
-    }
 }

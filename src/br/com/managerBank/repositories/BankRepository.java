@@ -13,10 +13,10 @@ public class BankRepository {
     }
 
     public void find(Balance balance) {
-        System.out.println(balance);
+        System.out.println(account);
     }
 
     public void save(Balance balance) {
-        account.put(balance);
+        account.put(account);
     }
 }
