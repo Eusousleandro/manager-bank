@@ -12,11 +12,11 @@ public class BankRepository {
         this.account = new HashMap<>();
     }
 
-    public void find(Balance balance) {
+    public void find(BankAccount account) {
         System.out.println(account);
     }
 
-    public void save(Balance balance) {
+    public void save(BankAccount account) {
         account.put(account);
     }
 }
