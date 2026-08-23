@@ -25,11 +25,12 @@ public class Main {
 
             switch(options) {
                 case 1 -> controller.deposit();
-                case 2 -> sacar();
-                case 3 -> transferer();
-                case 4 -> System.exit(4);
+                case 2 -> controller.withdraw();
+                case 3 -> controller.transferer();
+                case 4 -> controller.showBalance()
+                case 0 -> System.exit(0);
                 default -> System.out.println("Invalid Option");
             }
-        } while(options != 4);
+        } while(options != 0);
     }
 }
