@@ -6,19 +6,13 @@ import java.util.Scanner;
 public class BankController {
 
     private final static Scanner scanner = new Scanner(System.in);
-
-    public static void deposit() {
-        System.out.println("Qual valor você deseja depositar hoje?");
-        double value = scanner.nextDouble();
-        System.out.println("O deposito no valor de " + value + " foi realizado com sucesso.")
-    }
                             
     public class BankController {
         private final static Scanner scanner = new Scanner(System.in);
         private final static BankService service
 
         public BankController(BankService bankService) {
-            this.bankService = service:
+            this.bankService = service;
         }
 
         public static void deposit() {
@@ -51,6 +45,6 @@ public class BankController {
         }
 
         public static void showBalance() {
-            System.out.println("The balance of value is of ")
+            System.out.println("The balance of value is of ");
         }                                                                                                                                                                                             
     }
