@@ -1,4 +1,4 @@
-package br.com.managerBank.models
+package br.com.managerBank.models;
 
 public class BankAccount {
 
@@ -9,10 +9,10 @@ public class BankAccount {
            throw new IllegalArgumentException("Invalid value.");
         }
 
-        balance += value
+        balance += value;
     }
 
     public double getBalance() {
-        return balance
+        return balance;
     }
 }
