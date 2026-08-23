@@ -1,15 +1,15 @@
 package br.com.managerBank.controllers;
 
+import br.com.managerBank.service.BankService;
  
 import java.util.Scanner;
 
 public class BankController {
 
     private final static Scanner scanner = new Scanner(System.in);
+    private final static BankService = service;
                             
     public class BankController {
-        private final static Scanner scanner = new Scanner(System.in);
-        private final static BankService service
 
         public BankController(BankService bankService) {
             this.bankService = service;
