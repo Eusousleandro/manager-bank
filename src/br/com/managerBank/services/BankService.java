@@ -1,9 +1,12 @@
 package br.com.managerBank.services;
 
-import br.com.managerBank.models.BankAccount;
+import br.com.managerBank.repositors.BankRepository;
+
 
 public class BankService {
-    public static void deposite(BankAccount account, double value) {
-        account.deposite(value);
+    private final BankRepository repository = new BankRepository();
+
+    public void deposit(BankRepository repository) {
+        repository.save();
     }
 }

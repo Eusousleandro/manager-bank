@@ -1,13 +1,13 @@
 package br.com.managerBank.controllers;
 
-import br.com.managerBank.service.BankService;
+import br.com.managerBank.services.BankService;
  
 import java.util.Scanner;
 
 public class BankController {
 
-    private final static Scanner scanner = new Scanner(System.in);
-    private final static BankService service = new BankService();
+    private final Scanner scanner = new Scanner(System.in);
+    private final BankService service = new BankService();
 
         public BankController(BankService service) {
             this.service = service;
@@ -25,7 +25,7 @@ public class BankController {
             System.out.println("The Widthdraw of value of " + withdraw + " with sucess.");
         }
 
-        public static void transferer() {
+        public static void transfer() {
             System.out.println("Branch number:");
             int agency = scanner.nextInt();
 

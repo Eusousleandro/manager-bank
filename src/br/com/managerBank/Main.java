@@ -1,15 +1,20 @@
 package br.com.managerBank;
 
 import br.com.managerBank.controllers.BankController;
+import br.com.managerBank.services.BankService;
+import br.com.managerBank.repositors.BankRepository;
 
 import java.util.Scanner;
 
 public class Main {
 
-    private final static Scanner scanner = new Scanner(System.in);
-    private final static BankController controller = new BankController();
+    private final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] agra) {
+
+        BankRepository repository = new BankRepository();
+        BankService service = new BankService(repository);
+        BankController bank = new BankController(service);
 
         int options;
             
@@ -23,13 +28,29 @@ public class Main {
             System.out.println("0- Sair");
 
             switch(options) {
-                    case 1 -> controller.deposit();
-                    case 2 -> controller.withdraw();
-                    case 3 -> controller.transferer();
-                    case 4 -> controller.showBalance();
+                    case 1 -> setDeposit();
+                    case 2 -> setWithdraw();
+                    case 3 -> setTransfer();
+                    case 4 -> setShowBalance();
                     case 0 -> System.exit(0);
                     default -> System.out.println("Invalid options");
                 }
             } while(options != 0);
+        }
+
+        public static void setDeposit(){
+           bank.deposit();
+        }
+
+        public static void setWithdraw() {
+           bank.withdraw()
+        }
+
+        public static void setTransfer() {
+           bank.transfer();
+        }
+
+        public static void setShowBalance() {
+            bank.showBalance();
         }
     }
