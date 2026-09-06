@@ -1,7 +1,7 @@
 
-import src.controlleries.BankController;
-import src.services.BankService;
-import src.repositories.BankRepository;
+import controlleries.BankController;
+import services.BankService;
+import repositories.BankRepository;
 
 import java.util.Scanner;
 

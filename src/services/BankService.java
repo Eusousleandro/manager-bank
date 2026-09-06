@@ -1,6 +1,6 @@
-package src.services;
+package services;
 
-import src.repositories.BankRepository;
+import repositories.BankRepository;
 
 
 public class BankService {
