@@ -1,6 +1,6 @@
-package br.com.managerBank.services;
+package services;
 
-import br.com.managerBank.repositories.BankRepository;
+import repositories.BankRepository;
 
 
 public class BankService {

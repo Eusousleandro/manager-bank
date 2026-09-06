@@ -1,6 +1,6 @@
-package br.com.managerBank.repositors;
+package repositories;
 
-import br.com.managerBank.models.BankAccount;
+import entities.BankAccount;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,6 @@
-package br.com.managerBank.controllers;
+package controlleries;
 
-import br.com.managerBank.services.BankService;
+import services.BankService;
  
 import java.util.Scanner;
 
