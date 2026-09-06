@@ -22,7 +22,7 @@ public class BankRepository {
             depositById = account.get(bankAccount.name);
         }
 
-        return depositById
+        return depositById;
     }
 
     public void deposite(BankAccount bankAccount) {
