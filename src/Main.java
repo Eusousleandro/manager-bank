@@ -1,4 +1,3 @@
-package br.com.managerBank;
 
 import br.com.managerBank.controllers.BankController;
 import br.com.managerBank.services.BankService;
