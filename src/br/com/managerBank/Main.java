@@ -43,7 +43,7 @@ public class Main {
         }
 
         public static void setWithdraw() {
-           bank.withdraw()
+           bank.withdraw();
         }
 
         public static void setTransfer() {
