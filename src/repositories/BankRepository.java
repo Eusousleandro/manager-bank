@@ -1,6 +1,6 @@
-package repositories;
+package src.repositories;
 
-import entities.BankAccount;
+import src.entities.BankAccount;
 
 import java.util.HashMap;
 import java.util.Map;

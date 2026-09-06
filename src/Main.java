@@ -1,7 +1,7 @@
 
-import br.com.managerBank.controllers.BankController;
-import br.com.managerBank.services.BankService;
-import br.com.managerBank.repositories.BankRepository;
+import src.controlleries.BankController;
+import src.services.BankService;
+import src.repositories.BankRepository;
 
 import java.util.Scanner;
 

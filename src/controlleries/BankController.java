@@ -1,6 +1,6 @@
-package controlleries;
+package src.controlleries;
 
-import services.BankService;
+import src.services.BankService;
  
 import java.util.Scanner;
 
