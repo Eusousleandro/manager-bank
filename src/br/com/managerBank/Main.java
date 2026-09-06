@@ -2,7 +2,7 @@ package br.com.managerBank;
 
 import br.com.managerBank.controllers.BankController;
 import br.com.managerBank.services.BankService;
-import br.com.managerBank.repositors.BankRepository;
+import br.com.managerBank.repositories.BankRepository;
 
 import java.util.Scanner;
 
