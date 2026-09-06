@@ -10,7 +10,7 @@ public class Main {
 
     private final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] agra) {
+    public static void main(String[] agrs) {
 
         BankRepository repository = new BankRepository();
         BankService service = new BankService(repository);
